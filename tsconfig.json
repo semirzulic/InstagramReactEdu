@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/index.js", "pages/_app.js", "pages/auth/signin.js", "pages/api/auth/[...nextauth].js", "components/Suggestions.js", "components/Story.js", "components/Stories.js", "components/Posts.js", "components/Post.js", "components/Modal.js", "components/MiniProfile.js", "components/Feed.js", "components/Header.js"],
+  "exclude": ["node_modules"]
+}
